@@ -113,5 +113,5 @@ void Lexer::Run(std::string& input) {
     for(unsigned int i = 0; i < tokens.size(); i++) {
         std::cout << tokens.at(i)->ToString() << std::endl;
     }
-    std::cout << "Total Tokens = " << tokens.size() << std::endl << std::endl;
+    std::cout << "Total Tokens = " << tokens.size();
 }
