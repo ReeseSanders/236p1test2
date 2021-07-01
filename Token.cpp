@@ -9,7 +9,7 @@ Token::Token(TokenType type, std::string description, int line) {
 }
 
 std::string Token::ToString(){
-    std::string returnString = "(" + EnumToString() + "," + description + "," + std::to_string(line) + ")";
+    std::string returnString = "(" + EnumToString() + ",\"" + description + "\"," + std::to_string(line) + ")";
     return(returnString);
 }
 
